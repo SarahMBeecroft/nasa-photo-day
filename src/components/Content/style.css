@@ -8,12 +8,19 @@
 .card-image {
   height: 400px !important;
   width: 400px !important;
-  border: solid white 1px;
+  border: solid 8px white;
+  transition: border-width 0.6s linear;
+  position: relative;
+  bottom: 1em;
+  border: 8px outset rgb(255, 255, 255);
+  -webkit-box-shadow: 0 0 0px rgb(255, 255, 255);
+  -moz-box-shadow: 0 0 0px rgb(255, 255, 255);
 }
 
 .card-image:hover {
-  opacity: 0.7;
   cursor: pointer;
+  -webkit-box-shadow: 0 0 20px rgb(255, 255, 255);
+  -moz-box-shadow: 0 0 20px rgb(51, 33, 151);
 }
 
 .card-title {
@@ -27,6 +34,8 @@
   font-size: 1.6em;
   display: inline-block;
   padding: 1em;
+  position: relative;
+  bottom: 1em;
 }
 
 p {
@@ -43,12 +52,12 @@ p {
   }
 
   .card-image {
-    height: 200px !important;
-    width: 200px !important;
-    border: solid white 1px;
+    height: 300px !important;
+    width: 300px !important;
+    border: solid 6px white;
     position: relative;
     bottom: 5em;
-    left: 16.5em;
+    left: 17.5em;
   }
 
   .card-image:hover {
@@ -60,16 +69,17 @@ p {
     font-size: 1em;
     color: white;
     position: relative;
-    right: 2.8em;
+    top: 1em;
+    right: 2.5em;
   }
 
   .card-content {
     font-family: 'Abel', sans-serif;
-    font-size: 1.6em;
+    font-size: 2em;
     padding: 1em;
     position: relative;
     top: 7em;
-    right: 1em;
+    right: 2.5em;
   }
 
   p {

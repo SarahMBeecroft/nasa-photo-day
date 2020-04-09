@@ -20,7 +20,7 @@
   width: 100%;
   display: inline-block;
   font-family: 'Russo One', sans-serif;
-  font-size: 4em;
+  font-size: 4.5em;
   background-color: #8c94ff;
   background-image: linear-gradient(
     -75deg,
@@ -44,7 +44,7 @@
 
 .dateSelection {
   position: relative;
-  bottom: 1em;
+  bottom: 1.5em;
   width: 100%;
   display: inline-block;
   font-family: 'Russo One', sans-serif;
@@ -72,7 +72,7 @@
 
 input {
   position: relative;
-  bottom: 3.5em;
+  bottom: 4.5em;
   font-size: 1em;
   padding: 0.2em;
   color: #06142f;
