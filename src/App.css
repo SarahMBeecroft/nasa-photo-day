@@ -1,0 +1,156 @@
+.App {
+  background: linear-gradient(#050227, #5b5dda) !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+  height: 100vh;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.App-content {
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: inline-block;
+  font-family: 'Russo One', sans-serif;
+  font-size: 4em;
+  background-color: #8c94ff;
+  background-image: linear-gradient(
+    -75deg,
+    transparent 0,
+    transparent 5%,
+    #cbc8ff 20%,
+    #cbc8ff 20%,
+    transparent 10%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  transition: 1.4s;
+}
+
+.header:hover {
+  background-position: -120% 0;
+  cursor: pointer;
+}
+
+.dateSelection {
+  position: relative;
+  bottom: 1em;
+  width: 100%;
+  display: inline-block;
+  font-family: 'Russo One', sans-serif;
+  font-size: 2em;
+  background-color: #8c94ff;
+  background-image: linear-gradient(
+    -75deg,
+    transparent 0,
+    transparent 5%,
+    #cbc8ff 20%,
+    #cbc8ff 20%,
+    transparent 10%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  transition: 1.4s;
+}
+
+.dateSelection:hover {
+  background-position: -120% 0;
+  cursor: pointer;
+}
+
+input {
+  position: relative;
+  bottom: 3.5em;
+  font-size: 1em;
+  padding: 0.2em;
+  color: #06142f;
+  text-align: center;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+}
+
+.button {
+  font-family: 'Russo One', sans-serif;
+  display: inline-block;
+  position: relative;
+  bottom: 1.5em;
+  font-size: 1.8em;
+  margin: 1em;
+  padding: 0.4em 0.6em 0.4em 0.6em;
+  color: #06142f;
+  background-color: #888edd;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 0px 8px 1px 0px #3b3879;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.774);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  cursor: pointer;
+}
+
+.button:hover:after {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 5px #06142f;
+  transform: translateY(4px);
+}
+
+@media (max-width: 650px) {
+  .App {
+    background-position: center center;
+    overflow-y: visible;
+  }
+
+  .App-content {
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header {
+    width: 80%;
+    font-size: 3em;
+    color: rgb(243, 223, 245);
+  }
+}
+
+/* Code for those who prefer reduced motion  */
+@media (prefers-reduced-motion: reduce) {
+  .button1 .button2 {
+    animation: none;
+  }
+}

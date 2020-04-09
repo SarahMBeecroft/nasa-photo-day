@@ -1,0 +1,24 @@
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+}
+
+#footerText {
+  color: white !important;
+  font-family: 'Abel', sans-serif;
+  font-size: 0.8em;
+  float: right;
+}
+
+/* Media queries */
+@media (max-width: 650px) {
+  .footer {
+    visibility: hidden;
+  }
+}
