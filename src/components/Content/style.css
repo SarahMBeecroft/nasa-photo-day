@@ -46,6 +46,7 @@ p {
 
 @media (max-width: 650px) {
   .card {
+    max-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,10 +55,10 @@ p {
   .card-image {
     height: 300px !important;
     width: 300px !important;
-    border: solid 6px white;
+    border: solid 5px white;
     position: relative;
-    bottom: 150px;
-    left: 17.5em;
+    bottom: 7em;
+    left: 18em;
   }
 
   .card-image:hover {
@@ -66,20 +67,17 @@ p {
   }
 
   .card-title {
+    max-width: 350px;
     font-size: 1em;
     color: white;
-    position: relative;
-    top: 1em;
-    right: 2.5em;
   }
 
   .card-content {
     font-family: 'Abel', sans-serif;
     font-size: 2em;
     padding: 1em;
-    position: relative;
-    top: 250px;
-    right: 2.5em;
+    top: 10em;
+    right: 2.2em;
   }
 
   p {
