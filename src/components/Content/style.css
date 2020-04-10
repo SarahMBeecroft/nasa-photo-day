@@ -58,7 +58,7 @@ p {
     border: solid 5px white;
     position: relative;
     bottom: 7em;
-    left: 15em;
+    left: 14.5em;
   }
 
   .card-image:hover {
@@ -78,7 +78,7 @@ p {
     font-size: 2em;
     padding: 1em;
     top: 10em;
-    right: 3em;
+    right: 3.5em;
   }
 
   p {
