@@ -53,12 +53,12 @@ p {
   }
 
   .card-image {
-    height: 300px !important;
-    width: 300px !important;
+    height: 260px !important;
+    width: 260px !important;
     border: solid 5px white;
     position: relative;
     bottom: 7em;
-    left: 18em;
+    left: 15em;
   }
 
   .card-image:hover {
@@ -73,11 +73,12 @@ p {
   }
 
   .card-content {
+    max-width: 350px;
     font-family: 'Abel', sans-serif;
     font-size: 2em;
     padding: 1em;
     top: 10em;
-    right: 2.2em;
+    right: 3em;
   }
 
   p {
