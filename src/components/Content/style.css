@@ -9,12 +9,10 @@
   height: 400px !important;
   width: 400px !important;
   border: solid 8px white;
-  transition: border-width 0.6s linear;
   position: relative;
-  bottom: 1em;
-  border: 8px outset rgb(255, 255, 255);
-  -webkit-box-shadow: 0 0 0px rgb(255, 255, 255);
-  -moz-box-shadow: 0 0 0px rgb(255, 255, 255);
+  bottom: 2em;
+  transition: border-width 0.6s linear;
+  border: 8px solid rgb(255, 255, 255);
 }
 
 .card-image:hover {
@@ -33,9 +31,9 @@
   font-family: 'Abel', sans-serif;
   font-size: 1.6em;
   display: inline-block;
-  padding: 1em;
+  padding: 1.5em;
   position: relative;
-  bottom: 1em;
+  bottom: 1.5em;
 }
 
 p {
