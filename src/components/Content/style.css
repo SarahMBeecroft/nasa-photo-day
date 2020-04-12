@@ -44,18 +44,19 @@ p {
 
 @media (max-width: 650px) {
   .card {
+    max-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .card-image {
-    height: 300px !important;
-    width: 300px !important;
-    border: solid 6px white;
+    height: 260px !important;
+    width: 260px !important;
+    border: solid 5px white;
     position: relative;
-    bottom: 5em;
-    left: 17.5em;
+    bottom: 7em;
+    left: 14.5em;
   }
 
   .card-image:hover {
@@ -64,25 +65,23 @@ p {
   }
 
   .card-title {
+    max-width: 350px;
     font-size: 1em;
     color: white;
-    position: relative;
-    top: 1em;
-    right: 2.5em;
   }
 
   .card-content {
+    max-width: 350px;
     font-family: 'Abel', sans-serif;
     font-size: 2em;
     padding: 1em;
-    position: relative;
-    top: 7em;
-    right: 2.5em;
+    top: 10em;
+    right: 3.5em;
   }
 
   p {
     width: 350px;
-    font-size: 0.4em;
+    font-size: 0.5em;
     color: white;
     padding: 1em;
     position: relative;
