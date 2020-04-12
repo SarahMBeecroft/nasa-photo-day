@@ -5,7 +5,9 @@ import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 /* Creates variable for loader and sets style */
-let loader = <Loader type='Rings' color='#8c94ff' height={100} width={100} />;
+let loadingAnimation = (
+  <Loader type='Rings' color='#8c94ff' height={100} width={100} />
+);
 
 const Content = props => {
   return (
@@ -14,7 +16,7 @@ const Content = props => {
         className='card-image'
         src={props.data.hdurl}
         alt='NASA Photo of the Day'
-        loader={loader}
+        loader={loadingAnimation}
       />
       <div className='card-content'>
         <h3 className='card-title'> {props.data.title} </h3>

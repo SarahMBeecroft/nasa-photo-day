@@ -6,6 +6,7 @@ import DateSelection from './components/DateSelection';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import 'react-datepicker/dist/react-datepicker.css';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 function App(props) {
   /* Sets start date to today with moment js */
