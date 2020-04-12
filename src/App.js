@@ -12,7 +12,7 @@ function App(props) {
   const [data, setData] = useState([]);
   const [startDate, setStartDate] = useState(Date.now());
 
-  const handleChange = (date) => {
+  const handleChange = date => {
     setStartDate(date);
   };
 
@@ -24,11 +24,11 @@ function App(props) {
       .get(
         `https://api.nasa.gov/planetary/apod?api_key=${keyString}&date=${date}`
       )
-      .then((res) => {
+      .then(res => {
         console.log('RESPONSE DATA:', res.data);
         setData(res.data);
       })
-      .catch((err) => {
+      .catch(err => {
         console.log('ERROR Fetching API:', err);
       });
 
