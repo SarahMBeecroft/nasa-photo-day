@@ -11,19 +11,24 @@ let loadingAnimation = (
 
 const Content = props => {
   return (
-    <div className='card'>
-      <Img
-        className='card-image'
-        src={props.data.hdurl}
-        alt='NASA Photo of the Day'
-        loader={loadingAnimation}
-      />
-      <div className='card-content'>
+    <div className='card-div'>
+      <div className='card'>
         <h3 className='card-title'> {props.data.title} </h3>
+        <Img
+          className='card-image'
+          src={props.data.hdurl}
+          alt='NASA Photo of the Day'
+          loader={loadingAnimation}
+        />
+        <p className='card-copyright'> Photo ©{props.data.copyright}</p>
+        {/* <div className='card-content'>
+
         <p className='card-bio'>{props.data.explanation}</p>
         <p className='card-copyright'> Photo ©{props.data.copyright}</p>
+      </div> */}
       </div>
     </div>
+
   );
 };
 

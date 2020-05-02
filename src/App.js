@@ -38,10 +38,12 @@ function App(props) {
 
   return (
     <div className='App'>
+
       <div className='App-content'>
         <h1 className='header'>NASA Photo of the Day</h1>
         <h3 className='dateSelection'>select date:</h3>
         <DateSelection
+          className='calendar'
           selected={startDate}
           handleChange={handleChange}
           data={data}
