@@ -1,19 +1,19 @@
 /* Footer */
 .footer {
   position: fixed;
-  left: 0;
-  bottom: 0;
+  bottom: .1em;
+  right: 2em;
   width: 100%;
 
-  color: white;
-  text-align: center;
 }
 
 #footerText {
   color: white !important;
   font-family: 'Abel', sans-serif;
-  font-size: 0.8em;
+  font-size: .9em;
   float: right;
+  position: relative;
+  top: .8em!important;
 }
 
 /* Media queries */

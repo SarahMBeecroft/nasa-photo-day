@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
-  overflow-y: hidden;
 }
 
 .App-content {
@@ -19,8 +18,10 @@
 .header {
   width: 100%;
   display: inline-block;
+  position: relative;
+  bottom: .4em;
   font-family: 'Russo One', sans-serif;
-  font-size: 5em;
+  font-size: 4.8em;
   background-color: #8c94ff;
   background-image: linear-gradient(
     -75deg,
@@ -44,7 +45,7 @@
 
 .dateSelection {
   position: relative;
-  bottom: 1.5em;
+  bottom: 2.5em;
   width: 100%;
   display: inline-block;
   font-family: 'Russo One', sans-serif;
@@ -72,7 +73,7 @@
 
 input {
   position: relative;
-  bottom: 4.5em;
+  bottom: 6.4em;
   font-size: 1em;
   padding: 0.2em;
   color: #06142f;
@@ -81,6 +82,16 @@ input {
 
 input:hover {
   cursor: pointer;
+}
+
+div.react-datepicker {
+  background-color: #d1d4ff;
+  font-family: 'Abel', sans-serif;
+  font-size: .9em;
+  position: relative;
+  bottom: 4.5em;
+  right: 1em;
+  border-radius: 0;
 }
 
 p {
