@@ -161,6 +161,13 @@ p {
     font-size: 3em;
     color: rgb(243, 223, 245);
   }
+
+  div.react-datepicker {
+    font-size: .8em;
+    position: relative;
+    bottom: 3.5em;
+  }
+  
 }
 
 /* Code for those who prefer reduced motion  */
